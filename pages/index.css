@@ -4,10 +4,6 @@
   font-family: "Inter", Arial, sans-serif;
   font-size: 16px;
   line-height: 20px;
-  margin: ;
-  padding: ;
-  background-repeat: no-repeat;
-  background-image: url(../images/inside_coffee_shop.png);
 }
 
 .header {
@@ -17,6 +13,14 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
+}
+
+.header__image {
+  position: absolute;
+  top: 124px;
+  right: 5px;
+  max-width: 646px;
+  max-width: 568px;
 }
 
 .nav {
@@ -137,4 +141,10 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
+}
+
+.recipes__iframe {
+  width: 480px;
+  height: 273px;
+  border: 0;
 }
