@@ -21,6 +21,7 @@
   right: 5px;
   max-width: 646px;
   max-width: 568px;
+  z-index: -1;
 }
 
 .nav {
