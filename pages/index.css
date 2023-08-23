@@ -20,7 +20,7 @@
   top: 124px;
   right: 5px;
   max-width: 646px;
-  max-width: 568px;
+  max-height: 568px;
   z-index: -1;
 }
 
@@ -47,7 +47,7 @@
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
-  font-style: 16px;
+  font-size: 16px;
   line-height: 20px;
   color: #000;
   text-decoration: none;
@@ -80,7 +80,7 @@
   font-family: "Noto Serif";
   font-style: italic;
   font-weight: normal;
-  font-style: 60px;
+  font-size: 60px;
   line-height: 72px;
   display: block;
   color: #2f80ed;
@@ -99,6 +99,8 @@
 
 .header__paragraph {
   margin: 0;
+  display: flex;
+  align-items: self-end;
 }
 
 .recipes {
