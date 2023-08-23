@@ -4,8 +4,10 @@
   font-family: "Inter", Arial, sans-serif;
   font-size: 16px;
   line-height: 20px;
-  margin: 0 auto;
-  border
+  margin: ;
+  padding: ;
+  background-repeat: no-repeat;
+  background-image: url(../images/inside_coffee_shop.png);
 }
 
 .header {
@@ -83,9 +85,56 @@
   display: flex;
   justify-content: space-between;
   margin-top: auto;
-
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #838383;
 }
 
 .header__paragraph {
   margin: 0;
+}
+
+.recipes {
+  padding: 100px 80px 215px;
+  margin: 100px 80px 215px;
+  background-color: #0a2750;
+  background-image: url(../images/background_recipes.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.recipes__title {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  max-width: 580px;
+  margin: 0;
+}
+
+.recipes__subtitles {
+  font-family: "Noto Serif";
+  font-size: 20px;
+  line-height: 30px;
+  max-width: 438px;
+  margin: 0;
+  padding-top: 24px;
+}
+
+.recipes__videos {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  padding-top: 80px;
+}
+
+.recipes__video-caption {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
 }
