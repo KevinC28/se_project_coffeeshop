@@ -203,6 +203,10 @@
   gap: 12px;
 }
 
+.form__input[type="datetime-local"] {
+  color: #000;
+}
+
 .form__input {
   display: flex;
   width: 100%;
@@ -215,8 +219,7 @@
   font-family: "Inter";
   font-size: 20px;
   line-height: 30px;
-
-  /* color: ; */
+  color: #838383;
 }
 
 .form__button {
