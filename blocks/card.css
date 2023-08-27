@@ -1,0 +1,22 @@
+.card {
+  width: 540px;
+}
+
+.card__title {
+  margin: 0 0 32px;
+}
+
+.card__list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+
+.card__list-item {
+  margin-bottom:16px;
+}
+
+.card__list-item:last-child {
+  margin-bottom: 0;
+}
