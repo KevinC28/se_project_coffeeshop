@@ -5,13 +5,11 @@
   background: linear-gradient(180deg, #0A2850 0%, #071931 100%);
 }
 
-.footer__contents {
+.footer__columns {
   display: flex;
+  justify-content: space-between;
 }
 
-.footer__content {
-  margin: 0;
-}
 
 .footer__logo {
   width: 105px;
