@@ -31,6 +31,8 @@
   gap: 40px;
   justify-content: center;
   padding-top: 80px;
+  margin: 0;
+  padding-left: 0;
 }
 
 .recipes__video-caption {
@@ -42,9 +44,10 @@
   line-height: 30px;
   color: #ffffff;
   margin: 0;
+  margin-top: 24px;
 }
 
-.recipes__links {
+.recipes__iframe {
   width: 480px;
   height: 273px;
   border: 0;
