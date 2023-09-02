@@ -28,6 +28,8 @@ display: flex;
 }
 
 .card__list-divider {
+  margin-left: 5px;
+  margin-right: 5px;
   border-bottom: 1px solid black;
   flex-grow: 1;
 }
