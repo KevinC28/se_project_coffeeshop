@@ -36,7 +36,7 @@
 }
 
 .header__description {
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: normal;
   max-width: 683px;
